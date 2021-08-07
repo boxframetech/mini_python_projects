@@ -1,4 +1,5 @@
-import pyttsx3, speech_recognition as sr
+import pyttsx3
+import speech_recognition as sr
 
 def getSpeech():
     recogniser = sr.Recognizer()
