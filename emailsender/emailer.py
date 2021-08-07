@@ -8,7 +8,6 @@ your_email = input("Please enter your email:...\n")
 your_password = input("Please enter your email password:..\n")
 
 
-
 def emailer(recipient, message_content, your_email,your_password):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
